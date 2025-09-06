@@ -1,0 +1,315 @@
+{
+  "categories": [
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "slug": "clothing",
+      "description": "Sustainable fashion for every style",
+      "hero_image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=400&fit=crop&crop=center",
+      "subcategories": [
+        { "id": "men", "name": "Men", "slug": "men" },
+        { "id": "women", "name": "Women", "slug": "women" },
+        { "id": "accessories", "name": "Accessories", "slug": "accessories" }
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Home & Décor",
+      "slug": "home",
+      "description": "Eco-friendly home essentials and décor",
+      "hero_image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&h=400&fit=crop&crop=center",
+      "subcategories": [
+        { "id": "furniture", "name": "Furniture", "slug": "furniture" },
+        { "id": "decor", "name": "Décor", "slug": "decor" },
+        { "id": "kitchen", "name": "Kitchen", "slug": "kitchen" }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "name": "Collectibles",
+      "slug": "collectibles",
+      "description": "Unique finds and vintage treasures",
+      "hero_image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=1200&h=400&fit=crop&crop=center",
+      "subcategories": [
+        { "id": "vintage", "name": "Vintage", "slug": "vintage" },
+        { "id": "art", "name": "Art & Prints", "slug": "art" },
+        { "id": "books", "name": "Books", "slug": "books" }
+      ]
+    },
+    {
+      "id": "riding-gear",
+      "name": "Riding Gear",
+      "slug": "riding-gear",
+      "description": "Sustainable outdoor and cycling equipment",
+      "hero_image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200&h=400&fit=crop&crop=center",
+      "subcategories": [
+        { "id": "cycling", "name": "Cycling", "slug": "cycling" },
+        { "id": "outdoor", "name": "Outdoor", "slug": "outdoor" },
+        { "id": "sports", "name": "Sports", "slug": "sports" }
+      ]
+    },
+    {
+      "id": "clearance",
+      "name": "Clearance",
+      "slug": "clearance",
+      "description": "Limited time offers and final sales",
+      "hero_image": "https://images.unsplash.com/photo-1607082349566-187342175e2f?w=1200&h=400&fit=crop&crop=center",
+      "subcategories": []
+    }
+  ],
+  "products": [
+    {
+      "id": "b1a2c3",
+      "title": "Vintage Denim Jacket",
+      "category": "clothing",
+      "subcategory": "men",
+      "image": "https://images.unsplash.com/photo-1544966503-7cc4bb7b7b4e?w=400&h=400&fit=crop&crop=center",
+      "price": 45.00,
+      "old_price": 70.00,
+      "badges": ["Highly Rated", "Clearance"],
+      "seller": {
+        "id": "s1",
+        "name": "Riya's Resale",
+        "rating": 4.7
+      },
+      "rating": 4.7,
+      "stock": 2,
+      "condition": "preloved",
+      "eco_rating": 4,
+      "brand": "Levi's",
+      "tags": ["vintage", "denim", "casual"],
+      "description": "Classic vintage denim jacket in excellent condition. Perfect for layering or wearing alone.",
+      "created_at": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "d4e5f6",
+      "title": "Handwoven Jute Rug",
+      "category": "home",
+      "subcategory": "decor",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop&crop=center",
+      "price": 65.00,
+      "old_price": null,
+      "badges": ["Sustainable"],
+      "seller": {
+        "id": "s2",
+        "name": "GreenHome",
+        "rating": 4.5
+      },
+      "rating": 4.5,
+      "stock": 8,
+      "condition": "new",
+      "eco_rating": 5,
+      "brand": "EcoDecor",
+      "tags": ["handmade", "jute", "natural"],
+      "description": "Beautiful handwoven jute rug made from sustainable materials. Adds warmth and texture to any space.",
+      "created_at": "2024-01-14T15:20:00Z"
+    },
+    {
+      "id": "g7h8i9",
+      "title": "Organic Cotton T-Shirt",
+      "category": "clothing",
+      "subcategory": "women",
+      "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=400&fit=crop&crop=center",
+      "price": 28.99,
+      "old_price": 45.00,
+      "badges": ["Most Loved", "Eco-Friendly"],
+      "seller": {
+        "id": "s3",
+        "name": "EcoWear",
+        "rating": 4.9
+      },
+      "rating": 4.9,
+      "stock": 12,
+      "condition": "new",
+      "eco_rating": 5,
+      "brand": "Patagonia",
+      "tags": ["organic", "cotton", "basic"],
+      "description": "Soft organic cotton t-shirt in classic fit. Made from 100% organic cotton.",
+      "created_at": "2024-01-13T09:15:00Z"
+    },
+    {
+      "id": "j1k2l3",
+      "title": "Mid-Century Modern Chair",
+      "category": "home",
+      "subcategory": "furniture",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=center",
+      "price": 125.00,
+      "old_price": 199.99,
+      "badges": ["Trending Now", "Vintage"],
+      "seller": {
+        "id": "s4",
+        "name": "Vintage Finds",
+        "rating": 4.6
+      },
+      "rating": 4.6,
+      "stock": 1,
+      "condition": "preloved",
+      "eco_rating": 3,
+      "brand": "Unknown",
+      "tags": ["mid-century", "wood", "vintage"],
+      "description": "Authentic mid-century modern chair with original upholstery. Perfect for any modern home.",
+      "created_at": "2024-01-12T14:45:00Z"
+    },
+    {
+      "id": "m4n5o6",
+      "title": "Bamboo Cutting Board Set",
+      "category": "home",
+      "subcategory": "kitchen",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop&crop=center",
+      "price": 28.99,
+      "old_price": 49.99,
+      "badges": ["Most Loved", "Kitchen"],
+      "seller": {
+        "id": "s5",
+        "name": "Kitchen Essentials",
+        "rating": 4.8
+      },
+      "rating": 4.8,
+      "stock": 15,
+      "condition": "new",
+      "eco_rating": 5,
+      "brand": "EcoKitchen",
+      "tags": ["bamboo", "kitchen", "sustainable"],
+      "description": "Set of 3 bamboo cutting boards in different sizes. Naturally antibacterial and eco-friendly.",
+      "created_at": "2024-01-11T11:30:00Z"
+    },
+    {
+      "id": "p7q8r9",
+      "title": "Vintage Ceramic Vase",
+      "category": "collectibles",
+      "subcategory": "vintage",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&crop=center",
+      "price": 35.00,
+      "old_price": 55.00,
+      "badges": ["Clearance", "Vintage"],
+      "seller": {
+        "id": "s6",
+        "name": "Antique Treasures",
+        "rating": 4.4
+      },
+      "rating": 4.4,
+      "stock": 3,
+      "condition": "preloved",
+      "eco_rating": 4,
+      "brand": "Unknown",
+      "tags": ["ceramic", "vintage", "decor"],
+      "description": "Beautiful vintage ceramic vase with intricate patterns. Perfect for displaying flowers or as standalone décor.",
+      "created_at": "2024-01-10T16:20:00Z"
+    },
+    {
+      "id": "s1t2u3",
+      "title": "Sustainable Cycling Jersey",
+      "category": "riding-gear",
+      "subcategory": "cycling",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop&crop=center",
+      "price": 42.00,
+      "old_price": 65.00,
+      "badges": ["Eco-Friendly", "Performance"],
+      "seller": {
+        "id": "s7",
+        "name": "Cycle Green",
+        "rating": 4.7
+      },
+      "rating": 4.7,
+      "stock": 6,
+      "condition": "new",
+      "eco_rating": 5,
+      "brand": "EcoRide",
+      "tags": ["cycling", "performance", "sustainable"],
+      "description": "High-performance cycling jersey made from recycled materials. Moisture-wicking and breathable.",
+      "created_at": "2024-01-09T13:15:00Z"
+    },
+    {
+      "id": "v4w5x6",
+      "title": "Handwoven Wool Blanket",
+      "category": "home",
+      "subcategory": "decor",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop&crop=center",
+      "price": 78.00,
+      "old_price": 120.00,
+      "badges": ["Most Loved", "Handmade"],
+      "seller": {
+        "id": "s8",
+        "name": "Artisan Textiles",
+        "rating": 5.0
+      },
+      "rating": 5.0,
+      "stock": 4,
+      "condition": "new",
+      "eco_rating": 5,
+      "brand": "Handmade",
+      "tags": ["wool", "handmade", "cozy"],
+      "description": "Luxurious handwoven wool blanket in natural colors. Made by local artisans using traditional techniques.",
+      "created_at": "2024-01-08T08:45:00Z"
+    },
+    {
+      "id": "y7z8a9",
+      "title": "Vintage Leather Crossbody Bag",
+      "category": "clothing",
+      "subcategory": "accessories",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&crop=center",
+      "price": 89.99,
+      "old_price": 129.99,
+      "badges": ["Most Loved", "Sustainable"],
+      "seller": {
+        "id": "s9",
+        "name": "Leather Luxe",
+        "rating": 4.8
+      },
+      "rating": 4.8,
+      "stock": 1,
+      "condition": "preloved",
+      "eco_rating": 4,
+      "brand": "Vintage",
+      "tags": ["leather", "vintage", "accessories"],
+      "description": "Classic vintage leather crossbody bag with beautiful patina. Timeless design that never goes out of style.",
+      "created_at": "2024-01-07T12:30:00Z"
+    },
+    {
+      "id": "b1c2d3",
+      "title": "Eco-Friendly Yoga Mat",
+      "category": "riding-gear",
+      "subcategory": "sports",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop&crop=center",
+      "price": 55.00,
+      "old_price": 85.00,
+      "badges": ["Eco-Friendly", "Non-Toxic"],
+      "seller": {
+        "id": "s10",
+        "name": "Wellness Store",
+        "rating": 4.6
+      },
+      "rating": 4.6,
+      "stock": 9,
+      "condition": "new",
+      "eco_rating": 5,
+      "brand": "EcoYoga",
+      "tags": ["yoga", "eco-friendly", "fitness"],
+      "description": "Premium eco-friendly yoga mat made from natural rubber. Non-toxic and biodegradable.",
+      "created_at": "2024-01-06T17:20:00Z"
+    }
+  ],
+  "brands": [
+    { "name": "Patagonia", "count": 15 },
+    { "name": "Levi's", "count": 12 },
+    { "name": "EcoDecor", "count": 8 },
+    { "name": "EcoWear", "count": 10 },
+    { "name": "EcoKitchen", "count": 6 },
+    { "name": "EcoRide", "count": 4 },
+    { "name": "Handmade", "count": 20 },
+    { "name": "Vintage", "count": 25 },
+    { "name": "EcoYoga", "count": 3 }
+  ],
+  "conditions": [
+    { "value": "new", "label": "New", "count": 45 },
+    { "value": "preloved", "label": "Pre-loved", "count": 35 },
+    { "value": "vintage", "label": "Vintage", "count": 20 }
+  ],
+  "eco_ratings": [
+    { "value": 5, "label": "5 stars", "count": 30 },
+    { "value": 4, "label": "4 stars", "count": 25 },
+    { "value": 3, "label": "3 stars", "count": 15 },
+    { "value": 2, "label": "2 stars", "count": 5 },
+    { "value": 1, "label": "1 star", "count": 2 }
+  ]
+}

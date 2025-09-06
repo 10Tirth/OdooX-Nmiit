@@ -1,0 +1,159 @@
+{
+  "featured_products": [
+    {
+      "id": "1",
+      "title": "Vintage Leather Crossbody Bag",
+      "price": 89.99,
+      "old_price": 129.99,
+      "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&q=80",
+      "badges": ["Most Loved", "Sustainable"],
+      "rating": 4.8,
+      "seller": {
+        "id": "seller1",
+        "name": "Sarah M.",
+        "rating": 4.9
+      }
+    },
+    {
+      "id": "2",
+      "title": "Mid-Century Modern Ceramic Vase",
+      "price": 45.00,
+      "old_price": 78.00,
+      "image_url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&q=80",
+      "badges": ["Trending Now", "Home Décor"],
+      "rating": 4.7,
+      "seller": {
+        "id": "seller2",
+        "name": "Michael R.",
+        "rating": 4.8
+      }
+    },
+    {
+      "id": "3",
+      "title": "Sustainable Cotton Sweater",
+      "price": 34.99,
+      "old_price": 65.00,
+      "image_url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=400&q=80",
+      "badges": ["Most Loved", "Eco-Friendly"],
+      "rating": 4.9,
+      "seller": {
+        "id": "seller3",
+        "name": "Emma L.",
+        "rating": 4.9
+      }
+    },
+    {
+      "id": "4",
+      "title": "Antique Brass Table Lamp",
+      "price": 125.00,
+      "old_price": 199.99,
+      "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
+      "badges": ["Trending Now", "Vintage"],
+      "rating": 4.6,
+      "seller": {
+        "id": "seller4",
+        "name": "David K.",
+        "rating": 4.7
+      }
+    },
+    {
+      "id": "5",
+      "title": "Organic Bamboo Cutting Board Set",
+      "price": 28.99,
+      "old_price": 49.99,
+      "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&q=80",
+      "badges": ["Most Loved", "Kitchen"],
+      "rating": 4.8,
+      "seller": {
+        "id": "seller5",
+        "name": "Lisa T.",
+        "rating": 4.8
+      }
+    },
+    {
+      "id": "6",
+      "title": "Upcycled Denim Jacket",
+      "price": 55.00,
+      "old_price": 89.99,
+      "image_url": "https://images.unsplash.com/photo-1544966503-7cc4bb7b7b4e?w=400&h=400&q=80",
+      "badges": ["Trending Now", "Upcycled"],
+      "rating": 4.7,
+      "seller": {
+        "id": "seller6",
+        "name": "Alex P.",
+        "rating": 4.6
+      }
+    },
+    {
+      "id": "7",
+      "title": "Handwoven Wool Throw Blanket",
+      "price": 78.00,
+      "old_price": 120.00,
+      "image_url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&q=80",
+      "badges": ["Most Loved", "Handmade"],
+      "rating": 4.9,
+      "seller": {
+        "id": "seller7",
+        "name": "Maya S.",
+        "rating": 5.0
+      }
+    },
+    {
+      "id": "8",
+      "title": "Vintage Ceramic Dinnerware Set",
+      "price": 95.00,
+      "old_price": 150.00,
+      "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&q=80",
+      "badges": ["Trending Now", "Complete Set"],
+      "rating": 4.8,
+      "seller": {
+        "id": "seller8",
+        "name": "Robert H.",
+        "rating": 4.9
+      }
+    }
+  ],
+  "clearance_brands": [
+    {
+      "id": "brand1",
+      "name": "Patagonia",
+      "logo_url": "/images/brands/patagonia.svg",
+      "sample_product_id": "clearance1"
+    },
+    {
+      "id": "brand2",
+      "name": "West Elm",
+      "logo_url": "/images/brands/west-elm.svg",
+      "sample_product_id": "clearance2"
+    },
+    {
+      "id": "brand3",
+      "name": "Everlane",
+      "logo_url": "/images/brands/everlane.svg",
+      "sample_product_id": "clearance3"
+    },
+    {
+      "id": "brand4",
+      "name": "CB2",
+      "logo_url": "/images/brands/cb2.svg",
+      "sample_product_id": "clearance4"
+    },
+    {
+      "id": "brand5",
+      "name": "Reformation",
+      "logo_url": "/images/brands/reformation.svg",
+      "sample_product_id": "clearance5"
+    },
+    {
+      "id": "brand6",
+      "name": "Anthropologie",
+      "logo_url": "/images/brands/anthropologie.svg",
+      "sample_product_id": "clearance6"
+    }
+  ],
+  "site_stats": {
+    "items_sold": 10234,
+    "avg_rating": 4.8,
+    "active_sellers": 842
+  }
+}
