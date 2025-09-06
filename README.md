@@ -1,4 +1,4 @@
-#EcoFinds - Style that lives twice !
+# EcoFinds - Style that lives twice !
 
 ## 🌍 Sustainable Living. Affordable Style.
 
